@@ -1,0 +1,79 @@
+# "THE BEER-WARE LICENSE" (Revision 42):
+# <info@stefan-betz.net> wrote this file. As long as you retain this notice you
+# can do whatever you want with this stuff. If we meet some day, and you think
+# this stuff is worth it, you can buy me a beer in return.	Stefan Betz
+
+# Color Rule Ordering (High => Low)
+rule.precedence.color=deleted,completed,active,keyword.,tag.,uda.,project.,overdue,scheduled,due.today,due,blocked,blocking,recurring,pri.,tagged
+
+# Basisc Stuff
+color.label=gray15
+color.label.sort=gray20
+color.alternate=on gray1
+color.header=rgb220
+color.footnote=rgb220
+# bold dont't play with rgb500 :/
+color.warning=bold red
+color.error=rgb500
+color.debug=rgb555
+
+# Task States
+color.completed=rgb030
+color.deleted=rgb300
+color.active=rgb555 on rgb420
+color.recurring=
+color.scheduled=
+color.until=
+color.blocked=on gray12
+color.blocking=on gray8
+
+# Project
+color.project.none=
+
+# Priority
+color.pri.H=gray23
+color.pri.M=gray20
+color.pri.L=gray17
+color.pri.none=
+
+# Tags
+color.tag.next=
+color.tag.none=
+color.tagged=
+
+# Due
+color.due.today=rgb400
+color.due=rgb300
+color.overdue=rgb500
+
+# Burn Baby Burn
+color.burndown.done=on rgb030
+color.burndown.pending=on rgb300
+color.burndown.started=on rgb330
+
+# History
+color.history.add=rgb000 on rgb300
+color.history.delete=rgb000 on rgb330
+color.history.done=rgb000 on rgb030
+
+# Summary
+color.summary.background=white on rgb000
+color.summary.bar=rgb000 on rgb030
+
+# Calendar
+color.calendar.due.today=rgb400
+color.calendar.due=rgb300
+color.calendar.holiday=on gray2
+color.calendar.overdue=rgb500
+color.calendar.today=rgb000 on rgb555
+color.calendar.weekend=on gray3
+color.calendar.weeknumber=rgb013
+
+# Sync
+color.sync.added=rgb030
+color.sync.changed=rgb330
+color.sync.rejected=rgb300
+
+# Undo
+color.undo.after=rgb030
+color.undo.before=rgb300
