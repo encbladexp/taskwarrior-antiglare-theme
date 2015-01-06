@@ -4,7 +4,8 @@ This is a simple [taskwarrior](http://www.taskwarrior.org) Theme without any
 extras, no beauty, but great usability.
 
 ## Features
- * Red Things are important. More red things are more important.
+ * Red Things are important. (due.today, due.overdue)
+ * Yellow Things get important next. (due)
  * Grey Things are nice to know, but not important right now.
  * Priorities have no different colors, reports should sort by priority.
 
