@@ -24,8 +24,8 @@ color.active=rgb555 on rgb420
 color.recurring=
 color.scheduled=
 color.until=
-color.blocked=on gray12
-color.blocking=on gray8
+color.blocked=gray12
+color.blocking=
 
 # Project
 color.project.none=
