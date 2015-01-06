@@ -34,7 +34,7 @@ color.project.none=
 color.pri.H=gray23
 color.pri.M=gray20
 color.pri.L=gray17
-color.pri.none=
+color.pri.none=gray14
 
 # Tags
 color.tag.next=
