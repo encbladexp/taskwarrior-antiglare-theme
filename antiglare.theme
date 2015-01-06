@@ -42,8 +42,8 @@ color.tag.none=
 color.tagged=
 
 # Due
-color.due.today=rgb400
-color.due=rgb300
+color.due.today=rgb300
+color.due=rgb220
 color.overdue=rgb500
 
 # Burn Baby Burn
