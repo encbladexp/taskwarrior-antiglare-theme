@@ -4,7 +4,7 @@
 # this stuff is worth it, you can buy me a beer in return.	Stefan Betz
 
 # Color Rule Ordering (High => Low)
-rule.precedence.color=deleted,completed,active,keyword.,tag.,uda.,project.,overdue,scheduled,due.today,due,blocked,blocking,recurring,pri.,tagged
+rule.precedence.color=deleted,completed,active,keyword.,tag.,project.,overdue,scheduled,due.today,due,blocked,blocking,recurring,uda.priority.,tagged,uda.
 
 # Basisc Stuff
 color.label=gray15
@@ -31,10 +31,9 @@ color.blocking=
 color.project.none=
 
 # Priority
-color.pri.H=gray23
-color.pri.M=gray20
-color.pri.L=gray17
-color.pri.none=gray14
+uda.priority.color.H=gray23
+uda.priority.color.M=gray20
+uda.priority.color.L=gray17
 
 # Tags
 color.tag.next=
